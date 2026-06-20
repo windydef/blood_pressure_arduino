@@ -151,22 +151,6 @@ Built with **MIT App Inventor** using drag-and-drop logic blocks.
 
 ---
 
-## Known Limitations
-
-**1. Fixed 40 mmHg diastole offset**
-Diastole is not directly measured — it is derived by subtracting 40 mmHg from systole. Actual pulse pressure varies per individual, leading to diastole error in patients outside the normal range.
-
-**2. Single-threshold oscillation detection**
-The `selisih < -0.5` threshold is fixed. Motion artifacts or irregular heartbeats may trigger false detection or missed detection.
-
-**3. Patient must be relaxed**
-Body movement or muscle tension during measurement introduces noise in the pressure reading, affecting detection accuracy.
-
-**4. No averaging across measurements**
-A single measurement is taken and displayed. Clinical devices typically average 2–3 readings for accuracy.
-
----
-
 ## References
 
 - Porth, C. (2013). *Alteration in Blood Pressure. Essentials of Pathophysiology: Concepts of Altered Health States.*
